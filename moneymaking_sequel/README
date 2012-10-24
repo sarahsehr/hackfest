@@ -1,0 +1,24 @@
+MONEYMAKING SEQUEL
+
+We have a database of financial information. The schema.sql file in this
+directory may be used as a reference. You can query this database using
+
+psql -h pg -U haxor -d money
+password: haxor
+
+from the command line on the hackfest server. Or you can connect to it
+using whatever tools you like.
+
+Please provide the following, if possible (at least one of these is not
+possible):
+
+1) A list of account_ids that haven't made any transaction this month.
+
+2) A list of account_ids that did not make any transactions last month (but
+may have had transactions since then).
+
+3) A list of names for people who owe the bank money, and how much they owe.
+  Put the people who owe the most at the top of the list. Remember that some
+  people have more than one account.
+
+4) Accounts shouldn't be deleted. Have any accounts been deleted? Which?

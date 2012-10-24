@@ -1,0 +1,40 @@
+AJAX COWS
+
+In this directory, you'll find a file called `index.html`. Download this file
+to your computer and open it in a browser. On the page, you'll find Bob, our
+friendly office cow.
+
+Using our official Cowsay API endpoint at `http://hackfest/cowsay`, add a form
+to `index.html` that will update Bob with something new to say based on the
+contents of an HTML input or textarea named "message".
+
+Your form should make requests via AJAX and update the page without reloading.
+
+Already included on the page is the latest jQuery 1.x.
+
+# Reference Documentation for the Cowsay API
+
+**Request**
+
+GET /cowsay
+Parameters:
+  "message" - The new, url encoded message that Bob should say
+Example:
+GET /cowsay?message=Hello+World
+
+**Response**
+
+HTTP/1.1 200 OK
+Server: nginx/1.2.0
+Date: Tue, 01 May 2012 23:21:06 GMT
+Content-Type: text/plain;charset=utf-8
+Content-Length: 175
+Connection: keep-alive
+ _______________
+< 'Hello World' >
+ ---------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||

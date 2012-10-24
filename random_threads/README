@@ -1,0 +1,4 @@
+Create and run two threads. One will generate a random number between one and
+ten every tenth of a second and append that number into a data structure (with
+duplicates). The other will print out the most common element (or elements if
+there is a tie) in that data structure once every three seconds.

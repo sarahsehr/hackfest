@@ -1,0 +1,6 @@
+ZERO BYTE HUNT
+
+Sometimes we get empty files under the /nutricate/production/trans/spool
+directory. Give us a list of these files, and a total count.
+
+Your solution should be executable from your current directory.

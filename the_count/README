@@ -1,0 +1,6 @@
+THE COUNT
+
+Write a script that reads nginx's access log and determines the total number of
+times the page /A_HA_HA was accessed and returned an HTTP 200 response.  The
+log is in the standard location. Part of this exercise is knowing where that
+location is or finding it.

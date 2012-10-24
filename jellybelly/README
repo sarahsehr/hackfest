@@ -1,0 +1,26 @@
+Jelly Belly
+
+Count from 1 to 100 printing Jelly on every 3rd line and Belly on every 5th line.
+For lines that have both Jelly and Belly, print Jelly Belly! (with an exclamation mark!)
+
+Example (from python interpreter, use what you like):
+
+>>> jelly_belly()
+1
+2
+3 Jelly
+4
+5 Belly
+6 Jelly
+7
+8
+9 Jelly
+10 Belly
+11
+12 Jelly
+13
+14
+15 Jelly Belly!
+... snip ...
+100 Belly
+

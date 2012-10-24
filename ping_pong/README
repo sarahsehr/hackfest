@@ -1,0 +1,5 @@
+Run the provided server.py with any unused port as a command-line argument.
+This server will listen for connections on localhost and respond to a certain
+message. Create a client that can connect to a port and send a message (both
+provided as command-line arguments) and can print out the response it receives
+after sending the message. Do not modify the server code.
