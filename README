@@ -1,0 +1,15 @@
+Rules:
+
+- You have 60 minutes. Please complete as many of the exercises as possible.
+- Exercises may be completed in any order. Some are harder than others.
+  Jelly Belly might be a good starting point
+- Use any tools you wish so long as it executes on the hackfest machine.
+  Bash, Python, Ruby, C and Java are on there. We will apt-get install
+  anything within reason, just tell us what you need.
+- Commit early, commit often. If it's not committed to your git repo, it
+  didn't happen, so at least commit by the end of the night!
+- For extra credit, show us how you think by showing us how your work evolves
+  across commits.
+- A commit history that demonstrates TDD is not considered "Just Showing Off".
+
+Good Hunting.
