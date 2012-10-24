@@ -4,7 +4,7 @@ Rules:
 - Exercises may be completed in any order. Some are harder than others.
   Jelly Belly might be a good starting point
 - Use any tools you wish so long as it executes on the hackfest machine.
-  Bash, Python, Ruby, C and Java are on there. We will apt-get install
+  Bash, Python, Ruby, Perl, C, C++, ObjC, and Java are on there. We will apt-get install
   anything within reason, just tell us what you need.
 - Commit early, commit often. If it's not committed to your git repo, it
   didn't happen, so at least commit by the end of the night!
@@ -12,4 +12,29 @@ Rules:
   across commits.
 - A commit history that demonstrates TDD is not considered "Just Showing Off".
 
-Good Hunting.
+A short description of each exercise is listed as follows, to allow you to more quickly decide what to work on. Good Hacking.
+
+Jelly Belly:
+Simply printing text under certain conditions.
+
+Ajax Cows:
+Add an AJAX form to a webpage that makes requests.
+
+Money Making Sequel:
+Gather data via SQL queries.
+
+Parse Me:
+Parse some receipts from Subway for basic information and store that information in a data structure. Build unit tests if you like.
+
+Ping Pong:
+Run the provided server and try to get it to respond to a message sent over a TCP socket.
+
+Random Threads:
+Create threads that produce and analyze information.
+
+The Count:
+Find and parse a log file for some information.
+
+Zero Byte Hunt:
+Find and count empty files in a directory tree.
+
