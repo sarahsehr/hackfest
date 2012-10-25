@@ -4,6 +4,10 @@ require 'test/unit'
 require 'mocha'
 require File.dirname(__FILE__) + '/jellybelly'
 
+
+
+
+
 class JellyBellyTest < Test::Unit::TestCase
 
   def test_should_print_jelly_when_number_is_divisble_by_3
@@ -36,7 +40,7 @@ class JellyBellyTest < Test::Unit::TestCase
     [1..4].each do |i|
       jellybelly.expects(:get_string).with(i)
     end
-    out = jellybelly.print_all(4) 
+    jellybelly.print_all(4) 
   
   end
 end
